@@ -1,0 +1,131 @@
+CHAPTER I
+INTRODUCTION (RATIONALE)
+
+	Technology is now a big part of everyday office work. Small offices use many devices such as desktop computers, laptops, servers, and Wi-Fi devices to finish tasks, send information, and access the internet. Because of this, having a well-designed Local Area Network (LAN) is important. A good LAN helps the office work faster, stay organized, and stay secure. This project focuses on creating a simple and clear Small Office LAN Network Design. In a small office, many devices are used at the same time. When the network is not planned properly, problems like slow internet, unstable connections, and weak security can easily happen. These issues affect productivity and cause delays in daily tasks. This is why a strong and organized network design is needed to make sure everything runs smoothly and safely.
+
+The small office lan network includes important devices such as switches, a router, firewalls, a server, and both wired and wireless connections. Desktop computers are connected through switches to keep their connection stable. Laptops connect through Wi-Fi for easier movement around the office. The server is used to store files and support office systems. Firewalls are placed between the internet and the office network to protect the system from outside threats. All of these devices work together to build a complete and reliable small office network. This project shows how proper planning can create a clean, working network layout. It explains how switches connect computers, how the router manages internet traffic, and how firewalls protect the system. The design also includes Wi-Fi access points for devices that need wireless internet. Through this network, students can understand how a real small office network is organized.
+
+The main goal of this project is to present a simple, efficient, and secure Small Office LAN Network that supports daily office activities. The design ensures that all devices can connect with each other, access shared files, use the internet, and stay protected from security risks. By creating this network, the project helps students learn basic networking skills that they can use in real-life situations in the future.
+
+CHAPTER II
+RELATED LITERATURE
+Network design is important for small offices because it helps employees share files, use printers, access the internet, and work smoothly. A good LAN should be secure, reliable, and easy to expand. According to NIST (2020), small organizations must follow basic security steps like using strong passwords, updating devices, and installing firewalls to protect their network from attacks. Security is necessary even for small offices because hackers usually target weak systems. 
+A scalable network design is also needed so the office can add new computers or devices in the future. Cisco (2023) explains that using a layered or hierarchical design helps the network grow easily and makes troubleshooting simpler. This setup reduces slow connections and keeps the system organized. Wired connections are also important. Cat6 or Cat6A cables are commonly used because they support fast and stable data transmission. TrueCable (2022) states that Cat6A cables are more reliable for long-term use. Good cable management, such as labeling wires and using patch panels, helps prevent confusion during maintenance.Wireless connectivity is another key part of a small office network. Cisco (2022) highlights that access point placement affects Wi-Fi coverage and speed. Positioning them in central, open areas helps reduce dead zones and improves performance for laptops and mobile devices.  
+
+Managed network switches also improve LAN performance. FiberMall (2024) mentions that managed switches allow VLANs and traffic control, which increase security and keep the network organized. VLANs can separate main office devices from guest Wi-Fi so that visitors cannot access private files. Quality of Service (QoS) is useful for prioritizing important traffic, such as video calls or online meetings. Auvik (2024) explains that QoS helps keep voice and video communication clear even when many users are online. This is important for small offices that depend on virtual communication. 
+
+To end, the literature shows that an effective small office LAN requires security, scalability, good cabling, strong Wi-Fi design, managed switches, VLAN segmentation, and proper monitoring. These elements help create a network that is fast, safe, and ready for future expansion.
+CHAPTER III
+METHODOLOGIES/STRATEGIES
+
+In this project, We followed simple and organized steps to create the Small Office LAN Network. These methods helped us plan, design, and test the entire network properly.
+
+1. Planning the Network Layout
+We started by studying the layout of the small office and identifying where each device would be placed. This includes desktop computers, laptops, Wi-Fi devices, and the server. We also examined where to place the switches, firewall, and router to make sure the connections are neat, efficient, and easy to maintain. This step helped us to understand the overall flow of the network.
+
+2. Identifying the Devices Needed
+Then, We listed all the devices required for the office network. These include:
+Router
+Switches
+Firewall
+Desktop computers
+Laptops
+Server
+Wi-Fi access
+Printer
+Network cables
+Listing these devices allowed us to determine the number of ports needed, the type of connections required, and the best way to organize the network.
+
+3. Designing the Network Using Cisco Packet Tracer
+We used Cisco Packet Tracer to build the actual network design. In this software, We placed each device in its correct location based on the plan. We added switches for wired connections, a router for internet distribution, and a firewall for security. The diagram also shows how devices like desktops and laptops are connected either through cables or Wi-Fi.
+
+4. Connecting the Devices
+Once the design was arranged, We connected the devices:
+Wired connections were used for desktop computers, the server, and the printer to ensure stable and fast performance.
+Wireless connections were used for laptops and mobile devices through the Wi-Fi access point.
+The firewall was placed between the router and the internal network for added protection.
+This step shows how different types of devices work together inside one LAN.
+
+5. Testing the Network
+After completing all connections, We used Packet Tracer’s Simulation mode to test the network. We checked if:
+Devices can communicate with one another
+Internet access is working
+Messages (PDU) can be sent successfully
+All cables and wireless connections are functioning correctly
+Testing helped us confirm that the network is stable, secure, and ready for use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHAPTER IV
+RESULTS AND DISCUSSION (IMPLEMENTATION)
+
+	The Small Office LAN Network design was successfully created and tested using Cisco Packet Tracer. The setup shows a complete connection between the router, switches, firewall, desktop computers, laptops, printer, server, and wireless devices. All devices were placed according to the planned layout of the office. After connecting each device, the status indicators in Packet Tracer showed green lights, which means every device was working and properly linked to the network.
+
+During the testing stage, the router was able to provide a stable internet connection for both wired and wireless devices. The desktop computers connected through the switch communicated with each other without any issues. Laptops and other wireless devices also connected smoothly using the Wi-Fi access point. This confirmed that the network supported both wired and wireless connections effectively.
+
+The printer and server were also tested to make sure they were accessible. When a test print was sent, the printer responded correctly, showing that it was shared within the network. The server was also detected by the computers, which means file sharing and office system access were working well. This is important for daily office tasks such as saving files, updating information, and accessing shared resources.
+
+Another result observed was how organized the network became after grouping devices properly. The wired devices stayed connected to the switch for stable performance, while wireless devices accessed the network through Wi-Fi. This separation made the network easier to understand and manage. Even though everything was part of the same LAN, the devices worked smoothly without slowing each other down.
+
+Overall, the implementation proved that the Small Office LAN Network is functional, stable, and practical. The system supports different tasks such as browsing, printing, file sharing, and connecting to the internet. The Packet Tracer simulation confirmed that the design can work well in a real small office setup. These results show that proper planning, correct device placement, and organized connections lead to a successful and efficient LAN network.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REFERENCES
+
+TechTarget. (2024). Computer network. TechTarget.
+https://www.techtarget.com/searchnetworking/definition/network
+Cisco Networking Academy. (2023). Cisco Packet Tracer. 
+https://www.netacad.com/courses/packet-tracer
+Kaspersky. (2023). What is a firewall?
+https://www.kaspersky.com/resource-center/definitions/firewall
+SofthandTech. (2025, May). Understanding LAN: The backbone of local networking. SoftHandTech.
+https://softhandtech.com/what-do-you-mean-by-lan/
+Stellastra. (2025). Advantages of a LAN Network (Local Area Network). Stellastra.
+https://stellastra.com/advantages-lan-network-local-area-network
+The Tourism Institute. (2023). Local Area Networks: Definitions and key advantages. The Tourism Institute. 
+https://thetourism.institute/information-management-systems-and-tourism/local-area-networks-definitions-advantages/
+The Tourism Institute. (2023). Understanding local area networks: Definitions and key advantages. The Tourism Institute.
+https://thetourism.institute/information-management-systems-and-tourism/local-area-networks-definitions-advantages/
+Auvik Networks. (2024). Network design and best practices. Auvik.
+https://www.auvik.com/franklyit/blog/network-design-best-practices
+Cisco Systems. (2022). Wireless LAN design basics. Cisco Systems.
+https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/cisco-campus-lan-wlan-design-guide.html
+Cisco Systems. (2017). Wireless LAN design guide. 
+https://www.cisco.com/c/dam/en_us/solutions/industries/docs/education/cisco_wlan_design_guide.pdf
